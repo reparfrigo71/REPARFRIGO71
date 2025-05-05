@@ -20,23 +20,25 @@
     </div>
   </header>
 
-  <main>
-    <section id="hero">
+<section id="hero">
   <div class="slider">
     <div class="slides">
-      <img src="assets/img/slide1.jpg" alt="Intervention électroménager" class="active">
-      <img src="assets/img/slide2.jpg" alt="Intervention électroménager">
-      <img src="assets/img/slide3.jpg" alt="Intervention électroménager">
-      <img src="assets/img/slide4.jpg" alt="Intervention électroménager">
-      <img src="assets/img/slide5.jpg" alt="Intervention électroménager">
-      <img src="assets/img/slide6.jpg" alt="Intervention électroménager">
+      <!-- les <img …> sont inchangés, seule la classe “active” sur la 1ʳᵉ -->
+      <!-- … -->
     </div>
+
+    <!-- ➜ NOUVEAU : commandes -->
+    <button class="slider-btn prev" aria-label="Image précédente">‹</button>
+    <button class="slider-btn next" aria-label="Image suivante">›</button>
+
     <div class="hero-overlay">
-      <h1>Réparation rapide &amp; professionnelle<br>à Chalon‑sur‑Saône</h1>
-      <p>27&nbsp;ans d’expérience&nbsp;•&nbsp;Lutte contre l’obsolescence programmée&nbsp;•&nbsp;Note ⭐ 4,9/5 sur Google</p>
+      <h1>Réparation rapide & professionnelle<br>à Chalon‑sur‑Saône</h1>
+      <p>27 ans d’expérience • Lutte contre l’obsolescence programmée • Note ⭐ 4,9/5 sur Google</p>
+      <a href="#contact" class="btn">Demander une intervention</a>
     </div>
   </div>
 </section>
+
 
     <section id="services">
       <h2>Nos services</h2>
@@ -48,7 +50,8 @@
         <li>Interventions chez particuliers, commerçants & restaurants</li>
       </ul>
     </section>
-
+<section id="services" class="fade-in"> … </section>
+<section id="avis" class="fade-in"> … </section>
     <!-- ======= Témoignages / Avis clients ======= -->
     <section id="avis" class="testimonials">
       <h2 class="section-title">Ils nous font confiance</h2>
